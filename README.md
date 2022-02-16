@@ -1,2 +1,2 @@
 # my-zsh
-Este repositorio es para compartir como tengo configurada mi shell
+This repository is for sharing as I have configured my shell
