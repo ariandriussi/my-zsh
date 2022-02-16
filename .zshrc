@@ -102,24 +102,27 @@ source $ZSH/oh-my-zsh.sh
 
 
 #Alias
-alias install="sudo apt-get install"
-alias update="sudo apt-get update"
-alias snap-install= "sudo snap install"
-alias documentos='cd ~/Documentos'
-alias descargas='cd ~/Descargas'
-alias imagenes='cd ~/Imagenes'
-alias videos='cd ~/videos'
-alias zshvim="vim ~/.zshrc"
 alias .="cd .."
 alias ..="cd ../.."
 alias ...="cd ../../.."
 alias ...4="cd ../../../.."
 alias ...5="cd ../../../../.."
-alias proyectos='cd ~/Escritorio/cursos'
-alias mi_ip='curl ifconfig.me'
-alias vel_red='speedtest-cli --simple'
+alias descargas='cd ~/Descargas'
+alias documentos='cd ~/Documentos'
+alias imagenes='cd ~/Imagenes'
+alias install="sudo apt-get install"
 alias ll="ls -lha"
+alias mi_ip='curl ifconfig.me'
 alias mkdir="mkdir -pv"
-alias sleep='xset dpms force off'
-alias shutdown='sudo shutdown -h now'
 alias proyectos='cd ~/Escritorio/cursos'
+alias shutdown='sudo shutdown -h now'
+alias sleep='xset dpms force off'
+alias snap-install= "sudo snap install"
+alias update="sudo apt-get update"
+alias vel_red='speedtest-cli --simple'
+alias videos='cd ~/videos'
+alias zshvim="vim ~/.zshrc"
+
+
+
+
