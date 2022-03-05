@@ -102,26 +102,28 @@ source $ZSH/oh-my-zsh.sh
 
 
 #Alias
+#Alias
 alias .="cd .."
 alias ..="cd ../.."
 alias ...="cd ../../.."
 alias ...4="cd ../../../.."
 alias ...5="cd ../../../../.."
+alias arbol='git log --all --graph --decorate --oneline'
 alias descargas='cd ~/Descargas'
 alias documentos='cd ~/Documentos'
-alias imagenes='cd ~/Imagenes'
+alias imagenes='cd ~/Imágenes'
 alias install="sudo apt-get install"
 alias ll="ls -lha"
 alias mi_ip='curl ifconfig.me'
 alias mkdir="mkdir -pv"
+alias open='xdg-open'
 alias proyectos='cd ~/Escritorio/cursos'
 alias shutdown='sudo shutdown -h now'
 alias sleep='xset dpms force off'
 alias snap-install= "sudo snap install"
 alias update="sudo apt-get update"
 alias vel_red='speedtest-cli --simple'
-alias videos='cd ~/videos'
-alias zshvim="vim ~/.zshrc"
+
 
 
 
