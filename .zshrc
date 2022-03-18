@@ -110,6 +110,7 @@ alias ...4="cd ../../../.."
 alias ...5="cd ../../../../.."
 alias arbol='git log --all --graph --decorate --oneline'
 alias descargas='cd ~/Descargas'
+alias escritorio='cd ~/Escritorio'
 alias documentos='cd ~/Documentos'
 alias imagenes='cd ~/Imágenes'
 alias install="sudo apt-get install"
